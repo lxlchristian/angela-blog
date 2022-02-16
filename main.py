@@ -11,6 +11,7 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 import os
 
+
 app = Flask(__name__)
 
 if os.environ.get("SECRET_KEY") is None:
